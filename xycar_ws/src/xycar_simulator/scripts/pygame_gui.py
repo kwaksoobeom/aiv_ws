@@ -64,7 +64,7 @@ def run_simulator():
                 running = False
 
             elif event.type == pygame.MOUSEBUTTONDOWN:
-                # ▶️ 차량 재스폰
+                # 차량 재스폰
                 if spawn_button.collidepoint(event.pos):
                     car_pos[:], car_angle = spawn_car(target_pos)
                     path = []
@@ -74,7 +74,7 @@ def run_simulator():
                     # 이동 경로 저장 리스트 (경로 초기화)
                     passed_path = []
 
-                # 📍 경로 생성
+                # 경로 생성
                 elif planning_button.collidepoint(event.pos):
                     start = [car_pos[0], car_pos[1], math.radians(car_angle)]
 
@@ -98,35 +98,35 @@ def run_simulator():
                         # 이동 경로 저장 리스트 (경로 초기화)
                         passed_path = []
 
-                # 🚗 경로 따라 이동 시작
+                # 경로 따라 이동 시작
                 elif tracking_button.collidepoint(event.pos):
                     moving = True
 
-        # 🎯 주차 타겟 박스 그리기
+        # 주차 타겟 박스 그리기
         pygame.draw.rect(screen, RED, (target_pos[0] - 40, target_pos[1] - 25, 80, 50), 3)
 
-        # 📈 경로 시각화
+        # 경로 시각화
         if path:
             target_angle = math.degrees(path[-1][2])  # 목표 방향 업데이트
             for i in range(len(path) - 1):
                 pygame.draw.line(screen, BLUE, path[i][:2], path[i + 1][:2], 2)
 
-        # 🚘 차량 이동
+        # 차량 이동
         if moving and path and path_index < len(path):
             car_pos, car_angle, path_index, passed_path = move_car_along_path(car_pos, car_angle, path, path_index, passed_path)
 
 
-        # ✅ 이동 경로 그리기 (항상 그려지게 위치 이동)
+        # 이동 경로 그리기 (항상 그려지게 위치 이동)
         if len(passed_path) >= 2:
             for i in range(len(passed_path) - 1):
                 pygame.draw.line(screen, GREEN, passed_path[i], passed_path[i + 1], 3)
                 #print(f"Append point: {car_pos}, path_index={path_index}")
 
 
-        # 🚙 차량 렌더링
+        # 차량 렌더링
         draw_rotated_car(screen, car_img, car_pos, car_angle)
 
-        # 🧭 버튼 UI
+        # 버튼 UI
         pygame.draw.rect(screen, DARKBLUE, spawn_button)
         pygame.draw.rect(screen, BLUE, planning_button)
         pygame.draw.rect(screen, RED, tracking_button)
@@ -134,7 +134,7 @@ def run_simulator():
         screen.blit(font.render("Planning", True, WHITE), (planning_button.x + 10, planning_button.y + 5))
         screen.blit(font.render("Tracking", True, WHITE), (tracking_button.x + 10, tracking_button.y + 5))
 
-        # ✅ 주차 성공 판정
+        # 주차 성공 판정
         if moving:
             dx = car_pos[0] - target_pos[0]
             dy = car_pos[1] - target_pos[1]
@@ -146,7 +146,7 @@ def run_simulator():
 
             # 조건 만족 시 성공 메시지 출력
             if distance < 10.0 and angle_diff < 5.0:
-                screen.blit(font.render("🅿️ 주차 완료!", True, BLACK), (WIDTH // 2 - 80, 20))
+                #screen.blit(font.render("주차 완료!", True, BLACK), (WIDTH // 2 - 80, 20))
                 moving = False
 
         pygame.display.flip()
