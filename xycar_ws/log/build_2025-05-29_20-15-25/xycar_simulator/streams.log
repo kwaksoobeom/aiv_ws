@@ -1,0 +1,40 @@
+[0.353s] Invoking command in '/home/kwaksoobeom/xycar_ws/src/xycar_simulator': PYTHONPATH=/home/kwaksoobeom/xycar_ws/build/xycar_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kwaksoobeom/xycar_ws/install/xycar_simulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xycar_simulator build --build-base /home/kwaksoobeom/xycar_ws/build/xycar_simulator/build install --record /home/kwaksoobeom/xycar_ws/build/xycar_simulator/install.log --single-version-externally-managed install_data
+[0.490s] running egg_info
+[0.498s] creating ../../build/xycar_simulator/xycar_simulator.egg-info
+[0.498s] writing ../../build/xycar_simulator/xycar_simulator.egg-info/PKG-INFO
+[0.498s] writing dependency_links to ../../build/xycar_simulator/xycar_simulator.egg-info/dependency_links.txt
+[0.498s] writing entry points to ../../build/xycar_simulator/xycar_simulator.egg-info/entry_points.txt
+[0.498s] writing top-level names to ../../build/xycar_simulator/xycar_simulator.egg-info/top_level.txt
+[0.498s] writing manifest file '../../build/xycar_simulator/xycar_simulator.egg-info/SOURCES.txt'
+[0.513s] reading manifest file '../../build/xycar_simulator/xycar_simulator.egg-info/SOURCES.txt'
+[0.513s] Traceback (most recent call last):
+[0.513s]   File "/home/kwaksoobeom/xycar_ws/src/xycar_simulator/setup.py", line 5, in <module>
+[0.513s]     setup(
+[0.513s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 115, in setup
+[0.513s]     return distutils.core.setup(**attrs)
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[0.514s]     return run_commands(dist)
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[0.514s]     dist.run_commands()
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[0.514s]     self.run_command(cmd)
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command
+[0.514s]     super().run_command(command)
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[0.514s]     cmd_obj.run()
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[0.514s]     self.find_sources()
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[0.514s]     mm.run()
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[0.514s]     self.prune_file_list()
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[0.514s]     super().prune_file_list()
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[0.514s]     base_dir = self.distribution.get_fullname()
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[0.514s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.514s]   File "/home/kwaksoobeom/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[0.514s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.514s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.530s] Invoked command in '/home/kwaksoobeom/xycar_ws/src/xycar_simulator' returned '1': PYTHONPATH=/home/kwaksoobeom/xycar_ws/build/xycar_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kwaksoobeom/xycar_ws/install/xycar_simulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xycar_simulator build --build-base /home/kwaksoobeom/xycar_ws/build/xycar_simulator/build install --record /home/kwaksoobeom/xycar_ws/build/xycar_simulator/install.log --single-version-externally-managed install_data

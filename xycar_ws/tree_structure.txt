@@ -1,0 +1,48 @@
+.
+├── build
+│   ├── COLCON_IGNORE
+│   └── xycar_simulator
+├── config
+├── import pygame.py
+├── install
+│   ├── COLCON_IGNORE
+│   ├── local_setup.bash
+│   ├── local_setup.ps1
+│   ├── local_setup.sh
+│   ├── _local_setup_util_ps1.py
+│   ├── _local_setup_util_sh.py
+│   ├── local_setup.zsh
+│   ├── setup.bash
+│   ├── setup.ps1
+│   ├── setup.sh
+│   ├── setup.zsh
+│   └── xycar_simulator
+├── launch
+├── log
+│   ├── build_2025-05-29_20-15-25
+│   ├── build_2025-05-29_20-16-05
+│   ├── build_2025-05-29_20-16-38
+│   ├── build_2025-05-29_20-20-50
+│   ├── build_2025-05-29_20-23-05
+│   ├── build_2025-06-01_23-25-21
+│   ├── build_2025-06-02_00-24-29
+│   ├── build_2025-06-02_02-08-06
+│   ├── COLCON_IGNORE
+│   ├── latest -> latest_build
+│   └── latest_build -> build_2025-06-02_02-08-06
+├── resource
+├── scripts
+├── src
+│   └── xycar_simulator
+├── tree_structure.txt
+├── urdf
+└── world
+
+23 directories, 15 files
+
+
+## 🔽 src/xycar_simulator/script 상세
+
+src/xycar_simulator/script  [error opening dir]
+
+0 directories, 0 files

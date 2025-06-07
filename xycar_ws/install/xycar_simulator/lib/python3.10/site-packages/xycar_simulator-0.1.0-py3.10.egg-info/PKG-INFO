@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: xycar-simulator
+Version: 0.1.0
+Summary: Parking simulator using Pygame and Reeds-Shepp path
+Maintainer: kwaksoobeom
+Maintainer-email: soobeom@example.com
+License: MIT

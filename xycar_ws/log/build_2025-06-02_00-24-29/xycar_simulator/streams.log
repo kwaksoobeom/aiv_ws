@@ -1,0 +1,23 @@
+[0.550s] Invoking command in '/home/kwaksoobeom/xycar_ws/src/xycar_simulator': PYTHONPATH=/home/kwaksoobeom/xycar_ws/build/xycar_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kwaksoobeom/xycar_ws/install/xycar_simulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xycar_simulator build --build-base /home/kwaksoobeom/xycar_ws/build/xycar_simulator/build install --record /home/kwaksoobeom/xycar_ws/build/xycar_simulator/install.log --single-version-externally-managed install_data
+[0.758s] running egg_info
+[0.765s] writing ../../build/xycar_simulator/xycar_simulator.egg-info/PKG-INFO
+[0.765s] writing dependency_links to ../../build/xycar_simulator/xycar_simulator.egg-info/dependency_links.txt
+[0.765s] writing entry points to ../../build/xycar_simulator/xycar_simulator.egg-info/entry_points.txt
+[0.765s] writing top-level names to ../../build/xycar_simulator/xycar_simulator.egg-info/top_level.txt
+[0.785s] reading manifest file '../../build/xycar_simulator/xycar_simulator.egg-info/SOURCES.txt'
+[0.785s] writing manifest file '../../build/xycar_simulator/xycar_simulator.egg-info/SOURCES.txt'
+[0.785s] running build
+[0.785s] running build_py
+[0.785s] copying scripts/pygame_gui.py -> /home/kwaksoobeom/xycar_ws/build/xycar_simulator/build/lib
+[0.785s] running install
+[0.788s] running install_lib
+[0.796s] copying /home/kwaksoobeom/xycar_ws/build/xycar_simulator/build/lib/pygame_gui.py -> /home/kwaksoobeom/xycar_ws/install/xycar_simulator/lib/python3.10/site-packages
+[0.796s] byte-compiling /home/kwaksoobeom/xycar_ws/install/xycar_simulator/lib/python3.10/site-packages/pygame_gui.py to pygame_gui.cpython-310.pyc
+[0.797s] running install_data
+[0.797s] running install_egg_info
+[0.804s] removing '/home/kwaksoobeom/xycar_ws/install/xycar_simulator/lib/python3.10/site-packages/xycar_simulator-0.1.0-py3.10.egg-info' (and everything under it)
+[0.804s] Copying ../../build/xycar_simulator/xycar_simulator.egg-info to /home/kwaksoobeom/xycar_ws/install/xycar_simulator/lib/python3.10/site-packages/xycar_simulator-0.1.0-py3.10.egg-info
+[0.805s] running install_scripts
+[0.836s] Installing xycar_gui script to /home/kwaksoobeom/xycar_ws/install/xycar_simulator/lib/xycar_simulator
+[0.836s] writing list of installed files to '/home/kwaksoobeom/xycar_ws/build/xycar_simulator/install.log'
+[0.864s] Invoked command in '/home/kwaksoobeom/xycar_ws/src/xycar_simulator' returned '0': PYTHONPATH=/home/kwaksoobeom/xycar_ws/build/xycar_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kwaksoobeom/xycar_ws/install/xycar_simulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xycar_simulator build --build-base /home/kwaksoobeom/xycar_ws/build/xycar_simulator/build install --record /home/kwaksoobeom/xycar_ws/build/xycar_simulator/install.log --single-version-externally-managed install_data

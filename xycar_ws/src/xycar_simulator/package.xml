@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>xycar_simulator</name>
+  <version>0.0.1</version>
+  <description>Pygame-based parking simulator integrated with ROS 2</description>
+
+  <maintainer email="soobeom@naver.com">soobeom</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>pygame</exec_depend>
+
+  <test_depend>pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

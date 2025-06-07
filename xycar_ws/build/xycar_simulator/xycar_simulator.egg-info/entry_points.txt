@@ -1,0 +1,2 @@
+[console_scripts]
+xycar_gui = pygame_gui:main
